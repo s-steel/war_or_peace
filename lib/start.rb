@@ -29,5 +29,3 @@ class Start
     end
   end
 end
-#player.has_lost?
-#@turn.player1.deck != [] || @turn.player2.deck != [] do

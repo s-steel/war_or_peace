@@ -83,10 +83,3 @@ if user_input == "GO"
 else
   p "Sorry you don't want to play, maybe next time!"
 end
-
-
-
-
-
-#p p1_deck.count
-#p p2_deck

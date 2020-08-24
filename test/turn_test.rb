@@ -146,7 +146,7 @@ class TurnTest < MiniTest::Test
     player2 = Player.new("Aurora", deck2)
     turn = Turn.new(player1, player2)
     the_winner = turn.winner
-
+#call turn.award_spoils, then check players decks 
     assert_equal [card4, card3, card1], turn.award_spoils(the_winner)
     assert_equal [@card2, @card5, @card8, @card1, @card3], @turn.award_spoils(@player1)
   end

@@ -8,7 +8,7 @@ class Start
 
   def start
     counter = 0
-    until player1.has_lost? == true || player2.has_lost? == true do
+    until @turn.player1.deck == [] || @turn.player2.deck == [] || counter == 1000000 do
       @turn
       counter += 1
       if @turn.type == :basic
